@@ -1,32 +1,80 @@
-body,html{width: 100%; height: 100%;
-    font-family: 'DM Sans', sans-serif;
-background: url(Gym.jpg) no-repeat center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover; box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5); display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  background: url(Gym.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-color: antiquewhite;}
-
-h1{font-size: 120px; text-align: center;}
-h2{font-size: 20px; text-align: center; font-weight: 100; opacity: 0.8;}
-
-.highlight{color: #C92E2E;}
-.btn-primary{width: 300px; font-size: 25px; background-color: #C92E2E; border-color: #C92E2E; cursor: pointer; padding: 0.5rem 1rem; text-transform: uppercase;
+  color: antiquewhite;
 }
-.btn-primary:hover{background-color: #ee3636; border-color: #ee3636; border-width:2px;}
-h2{font-weight: 100;}
-.text-center{color: antiquewhite;}
-p{font-weight: lighter;
-    font-size: smaller; opacity: 0.8; text-align: center;}
 
-.icon{ align-content: center; align-self: flex-start; display: flex; flex-flow: column wrap; margin: 20px; width: fit-content; height: auto; position: fixed; transition: all;}
-img{border-color: aliceblue; margin: 30px; cursor: pointer; opacity: 0.7;}
-img:hover{transform: scale(1.3); opacity: 1;}
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+  opacity: 0.8;
+}
 
+.highlight {
+  color: #c92e2e;
+}
+.btn-primary {
+  width: 250px;
+  font-size: 20px;
+  background-color: #c92e2e;
+  border-color: #c92e2e;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+.btn-primary:hover {
+  background-color: #ee3636;
+  border-color: #ee3636;
+  border-width: 2px;
+}
+h2 {
+  font-weight: 100;
+}
+.text-center {
+  color: antiquewhite;
+}
+p {
+  font-weight: lighter;
+  font-size: smaller;
+  opacity: 0.8;
+  text-align: center;
+}
 
-
+.icon {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5px;
+  width: fit-content;
+  height: auto;
+  align-items: flex-end;
+  /* position: fixed; */
+  transition: all;
+}
+img {
+  border-color: aliceblue;
+  margin: 30px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+img:hover {
+  transform: scale(1.3);
+  opacity: 1;
+}
